@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+biba -> Boba: Authentication Request
+Boba --> biba: Authentication Response
+
+biba -> Boba: Another authentication Request
+biba <-- Boba: another authentication Response
+@enduml
